@@ -1,0 +1,4 @@
+# Upload only the prebuilt site. Keep local datasets and tooling off Vercel.
+**
+!web/
+!web/**

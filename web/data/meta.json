@@ -1,0 +1,621 @@
+{
+  "build_id": "a9cefb3217b7c3ba",
+  "generated_at": "2026-11-01T21:53:17.974566+00:00",
+  "tools_listed": 600,
+  "comments_scanned": 13623530,
+  "comments_with_links": 1445276,
+  "date_range": {
+    "start": "2023-01-01",
+    "end": "2026-08-21"
+  },
+  "months_processed": [
+    "2023-01",
+    "2023-02",
+    "2023-03",
+    "2023-04",
+    "2023-05",
+    "2023-06",
+    "2023-07",
+    "2023-08",
+    "2023-09",
+    "2023-10",
+    "2023-11",
+    "2023-12",
+    "2024-01",
+    "2024-02",
+    "2024-03",
+    "2024-04",
+    "2024-05",
+    "2024-06",
+    "2024-07",
+    "2024-08",
+    "2024-09",
+    "2024-10",
+    "2024-11",
+    "2024-12",
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08"
+  ],
+  "month_stats": [
+    {
+      "month": "2023-01",
+      "comments_scanned": 366306,
+      "comments_with_links": 41435,
+      "first": "2023-01-01",
+      "last": "2023-01-31",
+      "fingerprint": {
+        "size": 107325939,
+        "mtime_ns": 1793568016668910560,
+        "version": 3
+      }
+    },
+    {
+      "month": "2023-02",
+      "comments_scanned": 340439,
+      "comments_with_links": 36642,
+      "first": "2023-02-01",
+      "last": "2023-02-28",
+      "fingerprint": {
+        "size": 98342523,
+        "mtime_ns": 1793568022614592178,
+        "version": 3
+      }
+    },
+    {
+      "month": "2023-03",
+      "comments_scanned": 371943,
+      "comments_with_links": 39100,
+      "first": "2023-03-01",
+      "last": "2023-03-31",
+      "fingerprint": {
+        "size": 106836122,
+        "mtime_ns": 1793568029115844598,
+        "version": 3
+      }
+    },
+    {
+      "month": "2023-04",
+      "comments_scanned": 338105,
+      "comments_with_links": 36780,
+      "first": "2023-04-01",
+      "last": "2023-04-30",
+      "fingerprint": {
+        "size": 96481553,
+        "mtime_ns": 1793568040664918917,
+        "version": 3
+      }
+    },
+    {
+      "month": "2023-05",
+      "comments_scanned": 343120,
+      "comments_with_links": 38076,
+      "first": "2023-05-01",
+      "last": "2023-05-31",
+      "fingerprint": {
+        "size": 97625160,
+        "mtime_ns": 1793568046946600265,
+        "version": 3
+      }
+    },
+    {
+      "month": "2023-06",
+      "comments_scanned": 354653,
+      "comments_with_links": 37428,
+      "first": "2023-06-01",
+      "last": "2023-06-30",
+      "fingerprint": {
+        "size": 101335024,
+        "mtime_ns": 1793568053560839375,
+        "version": 3
+      }
+    },
+    {
+      "month": "2023-07",
+      "comments_scanned": 371869,
+      "comments_with_links": 41890,
+      "first": "2023-07-01",
+      "last": "2023-07-31",
+      "fingerprint": {
+        "size": 105840738,
+        "mtime_ns": 1793568060598537200,
+        "version": 3
+      }
+    },
+    {
+      "month": "2023-08",
+      "comments_scanned": 359386,
+      "comments_with_links": 40373,
+      "first": "2023-08-01",
+      "last": "2023-08-31",
+      "fingerprint": {
+        "size": 103234083,
+        "mtime_ns": 1793568067929251413,
+        "version": 3
+      }
+    },
+    {
+      "month": "2023-09",
+      "comments_scanned": 341905,
+      "comments_with_links": 38430,
+      "first": "2023-09-01",
+      "last": "2023-09-30",
+      "fingerprint": {
+        "size": 96089585,
+        "mtime_ns": 1793568074538187089,
+        "version": 3
+      }
+    },
+    {
+      "month": "2023-10",
+      "comments_scanned": 337626,
+      "comments_with_links": 37250,
+      "first": "2023-10-01",
+      "last": "2023-10-31",
+      "fingerprint": {
+        "size": 96016375,
+        "mtime_ns": 1793568080871594684,
+        "version": 3
+      }
+    },
+    {
+      "month": "2023-11",
+      "comments_scanned": 344756,
+      "comments_with_links": 35905,
+      "first": "2023-11-01",
+      "last": "2023-11-30",
+      "fingerprint": {
+        "size": 94837929,
+        "mtime_ns": 1793568087545434400,
+        "version": 3
+      }
+    },
+    {
+      "month": "2023-12",
+      "comments_scanned": 315813,
+      "comments_with_links": 35812,
+      "first": "2023-12-01",
+      "last": "2023-12-31",
+      "fingerprint": {
+        "size": 76865875,
+        "mtime_ns": 1793568093756842442,
+        "version": 3
+      }
+    },
+    {
+      "month": "2024-01",
+      "comments_scanned": 346509,
+      "comments_with_links": 39464,
+      "first": "2024-01-01",
+      "last": "2024-01-31",
+      "fingerprint": {
+        "size": 54628644,
+        "mtime_ns": 1793568102607962845,
+        "version": 3
+      }
+    },
+    {
+      "month": "2024-02",
+      "comments_scanned": 311873,
+      "comments_with_links": 34700,
+      "first": "2024-02-01",
+      "last": "2024-02-29",
+      "fingerprint": {
+        "size": 49674319,
+        "mtime_ns": 1793568108087596486,
+        "version": 3
+      }
+    },
+    {
+      "month": "2024-03",
+      "comments_scanned": 298482,
+      "comments_with_links": 34310,
+      "first": "2024-03-01",
+      "last": "2024-03-31",
+      "fingerprint": {
+        "size": 46960585,
+        "mtime_ns": 1793568113053801627,
+        "version": 3
+      }
+    },
+    {
+      "month": "2024-04",
+      "comments_scanned": 295067,
+      "comments_with_links": 33468,
+      "first": "2024-04-01",
+      "last": "2024-04-30",
+      "fingerprint": {
+        "size": 45760507,
+        "mtime_ns": 1793568117878548363,
+        "version": 3
+      }
+    },
+    {
+      "month": "2024-05",
+      "comments_scanned": 289235,
+      "comments_with_links": 32609,
+      "first": "2024-05-01",
+      "last": "2024-05-31",
+      "fingerprint": {
+        "size": 45540598,
+        "mtime_ns": 1793568122271659357,
+        "version": 3
+      }
+    },
+    {
+      "month": "2024-06",
+      "comments_scanned": 268716,
+      "comments_with_links": 30887,
+      "first": "2024-06-01",
+      "last": "2024-06-30",
+      "fingerprint": {
+        "size": 43077349,
+        "mtime_ns": 1793568127294607677,
+        "version": 3
+      }
+    },
+    {
+      "month": "2024-07",
+      "comments_scanned": 251907,
+      "comments_with_links": 29369,
+      "first": "2024-07-01",
+      "last": "2024-07-31",
+      "fingerprint": {
+        "size": 40211898,
+        "mtime_ns": 1793568132167135355,
+        "version": 3
+      }
+    },
+    {
+      "month": "2024-08",
+      "comments_scanned": 255236,
+      "comments_with_links": 29788,
+      "first": "2024-08-01",
+      "last": "2024-08-31",
+      "fingerprint": {
+        "size": 41423391,
+        "mtime_ns": 1793568136556996836,
+        "version": 3
+      }
+    },
+    {
+      "month": "2024-09",
+      "comments_scanned": 257979,
+      "comments_with_links": 28883,
+      "first": "2024-09-01",
+      "last": "2024-09-30",
+      "fingerprint": {
+        "size": 41170033,
+        "mtime_ns": 1793568141535214849,
+        "version": 3
+      }
+    },
+    {
+      "month": "2024-10",
+      "comments_scanned": 273981,
+      "comments_with_links": 30913,
+      "first": "2024-10-01",
+      "last": "2024-10-31",
+      "fingerprint": {
+        "size": 43546324,
+        "mtime_ns": 1793568145698702741,
+        "version": 3
+      }
+    },
+    {
+      "month": "2024-11",
+      "comments_scanned": 242531,
+      "comments_with_links": 25987,
+      "first": "2024-11-01",
+      "last": "2024-11-30",
+      "fingerprint": {
+        "size": 38396249,
+        "mtime_ns": 1793568150177922507,
+        "version": 3
+      }
+    },
+    {
+      "month": "2024-12",
+      "comments_scanned": 248346,
+      "comments_with_links": 27468,
+      "first": "2024-12-01",
+      "last": "2024-12-31",
+      "fingerprint": {
+        "size": 39748515,
+        "mtime_ns": 1793568154556205120,
+        "version": 3
+      }
+    },
+    {
+      "month": "2025-01",
+      "comments_scanned": 298491,
+      "comments_with_links": 32956,
+      "first": "2025-01-01",
+      "last": "2025-01-31",
+      "fingerprint": {
+        "size": 46770830,
+        "mtime_ns": 1793568159434758191,
+        "version": 3
+      }
+    },
+    {
+      "month": "2025-02",
+      "comments_scanned": 289936,
+      "comments_with_links": 32648,
+      "first": "2025-02-01",
+      "last": "2025-02-28",
+      "fingerprint": {
+        "size": 45154997,
+        "mtime_ns": 1793568164355609065,
+        "version": 3
+      }
+    },
+    {
+      "month": "2025-03",
+      "comments_scanned": 294924,
+      "comments_with_links": 32142,
+      "first": "2025-03-01",
+      "last": "2025-03-31",
+      "fingerprint": {
+        "size": 45965967,
+        "mtime_ns": 1793568168623544578,
+        "version": 3
+      }
+    },
+    {
+      "month": "2025-04",
+      "comments_scanned": 278405,
+      "comments_with_links": 29742,
+      "first": "2025-04-01",
+      "last": "2025-04-30",
+      "fingerprint": {
+        "size": 44487865,
+        "mtime_ns": 1793568172986295183,
+        "version": 3
+      }
+    },
+    {
+      "month": "2025-05",
+      "comments_scanned": 262229,
+      "comments_with_links": 28654,
+      "first": "2025-05-01",
+      "last": "2025-05-31",
+      "fingerprint": {
+        "size": 42432428,
+        "mtime_ns": 1793568178371984611,
+        "version": 3
+      }
+    },
+    {
+      "month": "2025-06",
+      "comments_scanned": 249879,
+      "comments_with_links": 26184,
+      "first": "2025-06-01",
+      "last": "2025-06-30",
+      "fingerprint": {
+        "size": 40244707,
+        "mtime_ns": 1793568182270060038,
+        "version": 3
+      }
+    },
+    {
+      "month": "2025-07",
+      "comments_scanned": 288628,
+      "comments_with_links": 29603,
+      "first": "2025-07-01",
+      "last": "2025-07-31",
+      "fingerprint": {
+        "size": 46613161,
+        "mtime_ns": 1793568186931113629,
+        "version": 3
+      }
+    },
+    {
+      "month": "2025-08",
+      "comments_scanned": 304032,
+      "comments_with_links": 30372,
+      "first": "2025-08-01",
+      "last": "2025-08-31",
+      "fingerprint": {
+        "size": 48616696,
+        "mtime_ns": 1793568191651689034,
+        "version": 3
+      }
+    },
+    {
+      "month": "2025-09",
+      "comments_scanned": 311317,
+      "comments_with_links": 32105,
+      "first": "2025-09-01",
+      "last": "2025-09-30",
+      "fingerprint": {
+        "size": 49090162,
+        "mtime_ns": 1793568197414610864,
+        "version": 3
+      }
+    },
+    {
+      "month": "2025-10",
+      "comments_scanned": 310773,
+      "comments_with_links": 32550,
+      "first": "2025-10-01",
+      "last": "2025-10-31",
+      "fingerprint": {
+        "size": 49497686,
+        "mtime_ns": 1793568202680882831,
+        "version": 3
+      }
+    },
+    {
+      "month": "2025-11",
+      "comments_scanned": 290451,
+      "comments_with_links": 29526,
+      "first": "2025-11-01",
+      "last": "2025-11-30",
+      "fingerprint": {
+        "size": 46520346,
+        "mtime_ns": 1793568207058126649,
+        "version": 3
+      }
+    },
+    {
+      "month": "2025-12",
+      "comments_scanned": 312199,
+      "comments_with_links": 31988,
+      "first": "2025-12-01",
+      "last": "2025-12-31",
+      "fingerprint": {
+        "size": 57302489,
+        "mtime_ns": 1793568214120567386,
+        "version": 3
+      }
+    },
+    {
+      "month": "2026-01",
+      "comments_scanned": 351195,
+      "comments_with_links": 37141,
+      "first": "2026-01-01",
+      "last": "2026-01-31",
+      "fingerprint": {
+        "size": 101771492,
+        "mtime_ns": 1793568221544678267,
+        "version": 3
+      }
+    },
+    {
+      "month": "2026-02",
+      "comments_scanned": 317004,
+      "comments_with_links": 31043,
+      "first": "2026-02-01",
+      "last": "2026-02-28",
+      "fingerprint": {
+        "size": 92692621,
+        "mtime_ns": 1793568228298046440,
+        "version": 3
+      }
+    },
+    {
+      "month": "2026-03",
+      "comments_scanned": 343549,
+      "comments_with_links": 31392,
+      "first": "2026-03-01",
+      "last": "2026-03-31",
+      "fingerprint": {
+        "size": 162171298,
+        "mtime_ns": 1793568237902842852,
+        "version": 3
+      }
+    },
+    {
+      "month": "2026-04",
+      "comments_scanned": 331556,
+      "comments_with_links": 30406,
+      "first": "2026-04-01",
+      "last": "2026-04-30",
+      "fingerprint": {
+        "size": 147432870,
+        "mtime_ns": 1793568246388617679,
+        "version": 3
+      }
+    },
+    {
+      "month": "2026-05",
+      "comments_scanned": 338816,
+      "comments_with_links": 28766,
+      "first": "2026-05-01",
+      "last": "2026-05-31",
+      "fingerprint": {
+        "size": 148476358,
+        "mtime_ns": 1793568254513093820,
+        "version": 3
+      }
+    },
+    {
+      "month": "2026-06",
+      "comments_scanned": 345905,
+      "comments_with_links": 29795,
+      "first": "2026-06-01",
+      "last": "2026-06-30",
+      "fingerprint": {
+        "size": 151615757,
+        "mtime_ns": 1793568263443667846,
+        "version": 3
+      }
+    },
+    {
+      "month": "2026-07",
+      "comments_scanned": 343308,
+      "comments_with_links": 30327,
+      "first": "2026-07-01",
+      "last": "2026-07-31",
+      "fingerprint": {
+        "size": 150071886,
+        "mtime_ns": 1793568272381616605,
+        "version": 3
+      }
+    },
+    {
+      "month": "2026-08",
+      "comments_scanned": 235150,
+      "comments_with_links": 20969,
+      "first": "2026-08-01",
+      "last": "2026-08-21",
+      "fingerprint": {
+        "size": 103240376,
+        "mtime_ns": 1793568279318343861,
+        "version": 3
+      }
+    }
+  ],
+  "skipped_months": [],
+  "topup_comments": 0,
+  "categories": [
+    "LLM apps & chat",
+    "Local inference & runtimes",
+    "Coding agents & assistants",
+    "Frameworks & libraries (agents/RAG)",
+    "Model hubs & models",
+    "Vector DBs & retrieval",
+    "Image/audio/video generation",
+    "Speech & transcription",
+    "Training & fine-tuning",
+    "Evals & observability",
+    "MCP & tool integrations",
+    "Dev tools/other AI"
+  ],
+  "score_formula": "months + 0.5 × log2(1 + authors) + 2 × (strong recommendations / recommending comments)",
+  "source": {
+    "name": "open-index/hacker-news",
+    "url": "https://huggingface.co/datasets/open-index/hacker-news",
+    "license": "ODC-By 1.0",
+    "license_url": "https://opendatacommons.org/licenses/by/1-0/",
+    "origin": "https://news.ycombinator.com/",
+    "inspiration": "https://hackertube.org/"
+  },
+  "method_version": "1.1",
+  "minimum_authors": 3,
+  "notes": [
+    "Counts are heuristic recommendations, including neutral non-negative mentions.",
+    "Self-promotion and mostly negative link contexts do not contribute to score.",
+    "First/last seen and activity counts refer to qualifying recommendations.",
+    "Product aliases and matching repository homepages are merged before counting; secondary links are retained.",
+    "The date range reflects loaded data, not a guarantee that every comment was captured."
+  ]
+}
