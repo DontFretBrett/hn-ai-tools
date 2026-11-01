@@ -30,18 +30,18 @@ function updateURL() {
 
 function sparkline(tool) {
   const ns = 'http://www.w3.org/2000/svg';
-  const svg = document.createElementNS(ns, 'svg'); svg.classList.add('spark'); svg.setAttribute('viewBox', '0 0 130 41'); svg.setAttribute('role', 'img');
+  const svg = document.createElementNS(ns, 'svg'); svg.classList.add('spark'); svg.setAttribute('height', '56'); svg.setAttribute('role', 'img');
   const label = years.map(y => `${y}: ${number(tool.by_year[y] || 0)} recommendations`).join(', ');
   svg.setAttribute('aria-label', label);
   const title = document.createElementNS(ns, 'title'); title.textContent = label; svg.append(title);
   const make = (tag, attrs) => { const n = document.createElementNS(ns, tag); for (const [k,v] of Object.entries(attrs)) n.setAttribute(k,v); return n; };
   const max = Math.max(1, ...years.map(y => tool.by_year[y] || 0));
-  svg.append(make('line',{x1:0,y1:27,x2:130,y2:27}));
-  const width = 130 / years.length;
+  svg.append(make('line',{x1:0,y1:32,x2:'100%',y2:32}));
+  const width = 100 / years.length;
   years.forEach((y,i) => {
     const count = tool.by_year[y] || 0, height = count ? Math.max(2,24*count/max) : 1;
-    svg.append(make('rect',{x:i*width+4,y:27-height,width:Math.max(3,width-8),height,rx:1}));
-    const text = make('text',{x:i*width+width/2,y:40,'text-anchor':'middle'}); text.textContent = String(y).slice(2); svg.append(text);
+    svg.append(make('rect',{x:`${i*width+width*.15}%`,y:32-height,width:`${width*.7}%`,height,rx:1}));
+    const text = make('text',{x:`${i*width+width/2}%`,y:52,'text-anchor':'middle','font-size':14}); text.textContent = String(y).slice(2); svg.append(text);
   });
   return svg;
 }
